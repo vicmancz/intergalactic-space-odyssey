@@ -5,8 +5,10 @@ Proyecto Final CODERHOUSE
 Primera Entrega
 
 Integrantes:
-Víctor Manuel Cruz Zamora
-Jorge Imar Canché Alvarez
+
+- Víctor Manuel Cruz Zamora
+
+- Jorge Imar Canché Alvarez
 
 Dinámica:
  
