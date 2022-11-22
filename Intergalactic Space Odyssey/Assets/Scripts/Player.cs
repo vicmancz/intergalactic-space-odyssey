@@ -7,6 +7,7 @@ public class Player : MonoBehaviour
 {
     // Start is called before the first frame update
 
+    public static int lifes;
     public float life = 100f;
     private float initialLife;
     public GameObject spawnPoint;
@@ -20,6 +21,7 @@ public class Player : MonoBehaviour
 
     void Start()
     {
+        lifes = 3;
         initialLife = life;
     }
 
@@ -29,6 +31,7 @@ public class Player : MonoBehaviour
         Move();
         if (life <= 0)
         {
+            lifes--;
             StartCoroutine(Spawn());
         }
     }
@@ -76,6 +79,7 @@ public class Player : MonoBehaviour
             collision.collider.transform.gameObject.CompareTag("Enemy"))
         {
             StartCoroutine(Spawn());
+            lifes--;
         }
 
         if (collision.collider.transform.gameObject.CompareTag("EnemyBullet"))

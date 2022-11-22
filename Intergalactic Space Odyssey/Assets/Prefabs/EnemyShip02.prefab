@@ -44,6 +44,7 @@ GameObject:
   - component: {fileID: 7500368434284534980}
   - component: {fileID: 7540105702024280916}
   - component: {fileID: 1815349837583660691}
+  - component: {fileID: 855524571023481984}
   m_Layer: 0
   m_Name: EnemyShip02
   m_TagString: Enemy
@@ -148,3 +149,23 @@ MonoBehaviour:
   intervalShoot: 1
   target: {fileID: 5518394261120022041, guid: 97f90a32cfd32427aa45141403163ad4, type: 3}
   targetDistanceToShoot: 50
+--- !u!95 &855524571023481984
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7512337629328353138}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3c6114eccaef44b31ac5d655d162ab39, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
